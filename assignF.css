@@ -1,0 +1,54 @@
+body{
+    margin-top: 15rem;
+}
+
+.container{
+    background-color: rgb(29, 32, 41);
+    height: 5rem;
+    width: 35rem;
+    font-family: "Trirong", serif;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    justify-content: space-around;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+a, p, i{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.container a,
+.container a:link,
+.container a:visited,
+.container a:hover,
+.container a:active{
+    color:whitesmoke;
+}
+.container a:focus{
+    color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container i,
+.container i:link,
+.container i:visited,
+.container i:hover,
+.container i:active{
+    color:whitesmoke;
+}
+.container i:focus{
+    color: blueviolet;
+}
+
+i{
+    text-decoration: none;
+}
